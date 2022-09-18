@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		C3BF5DA928D6C55600FCA1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DA828D6C55600FCA1B8 /* AppDelegate.swift */; };
 		C3BF5DAB28D6C55600FCA1B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DAA28D6C55600FCA1B8 /* SceneDelegate.swift */; };
-		C3BF5DAD28D6C55600FCA1B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DAC28D6C55600FCA1B8 /* ViewController.swift */; };
 		C3BF5DB028D6C55600FCA1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BF5DAE28D6C55600FCA1B8 /* Main.storyboard */; };
 		C3BF5DB228D6C55900FCA1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BF5DB128D6C55900FCA1B8 /* Assets.xcassets */; };
 		C3BF5DB528D6C55900FCA1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BF5DB328D6C55900FCA1B8 /* LaunchScreen.storyboard */; };
+		C3BF5DBD28D6C5A100FCA1B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DBC28D6C5A100FCA1B8 /* FirstViewController.swift */; };
+		C3BF5DBF28D6C5D800FCA1B8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DBE28D6C5D800FCA1B8 /* SecondViewController.swift */; };
+		C3BF5DC128D6C5F700FCA1B8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DC028D6C5F700FCA1B8 /* MainTabBarController.swift */; };
+		C3BF5DC328D6C85A00FCA1B8 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DC228D6C85A00FCA1B8 /* ModalViewController.swift */; };
+		C3BF5DC528D6C94500FCA1B8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DC428D6C94500FCA1B8 /* ThirdViewController.swift */; };
+		C3BF5DC728D6CDB000FCA1B8 /* ColorModeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DC628D6CDB000FCA1B8 /* ColorModeViewModel.swift */; };
+		C3BF5DC928D6E1B100FCA1B8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5DC828D6E1B100FCA1B8 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3BF5DA528D6C55600FCA1B8 /* MakingUITabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakingUITabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BF5DA828D6C55600FCA1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3BF5DAA28D6C55600FCA1B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3BF5DAC28D6C55600FCA1B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3BF5DAF28D6C55600FCA1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3BF5DB128D6C55900FCA1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3BF5DB428D6C55900FCA1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3BF5DB628D6C55900FCA1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3BF5DBC28D6C5A100FCA1B8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C3BF5DBE28D6C5D800FCA1B8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C3BF5DC028D6C5F700FCA1B8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		C3BF5DC228D6C85A00FCA1B8 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		C3BF5DC428D6C94500FCA1B8 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		C3BF5DC628D6CDB000FCA1B8 /* ColorModeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModeViewModel.swift; sourceTree = "<group>"; };
+		C3BF5DC828D6E1B100FCA1B8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		C3BF5DA728D6C55600FCA1B8 /* MakingUITabBar */ = {
 			isa = PBXGroup;
 			children = (
+				C3BF5DC028D6C5F700FCA1B8 /* MainTabBarController.swift */,
+				C3BF5DBC28D6C5A100FCA1B8 /* FirstViewController.swift */,
+				C3BF5DBE28D6C5D800FCA1B8 /* SecondViewController.swift */,
+				C3BF5DC428D6C94500FCA1B8 /* ThirdViewController.swift */,
+				C3BF5DC228D6C85A00FCA1B8 /* ModalViewController.swift */,
+				C3BF5DC628D6CDB000FCA1B8 /* ColorModeViewModel.swift */,
+				C3BF5DC828D6E1B100FCA1B8 /* UserViewModel.swift */,
 				C3BF5DA828D6C55600FCA1B8 /* AppDelegate.swift */,
 				C3BF5DAA28D6C55600FCA1B8 /* SceneDelegate.swift */,
-				C3BF5DAC28D6C55600FCA1B8 /* ViewController.swift */,
 				C3BF5DAE28D6C55600FCA1B8 /* Main.storyboard */,
 				C3BF5DB128D6C55900FCA1B8 /* Assets.xcassets */,
 				C3BF5DB328D6C55900FCA1B8 /* LaunchScreen.storyboard */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3BF5DAD28D6C55600FCA1B8 /* ViewController.swift in Sources */,
 				C3BF5DA928D6C55600FCA1B8 /* AppDelegate.swift in Sources */,
+				C3BF5DC128D6C5F700FCA1B8 /* MainTabBarController.swift in Sources */,
 				C3BF5DAB28D6C55600FCA1B8 /* SceneDelegate.swift in Sources */,
+				C3BF5DC728D6CDB000FCA1B8 /* ColorModeViewModel.swift in Sources */,
+				C3BF5DC528D6C94500FCA1B8 /* ThirdViewController.swift in Sources */,
+				C3BF5DBF28D6C5D800FCA1B8 /* SecondViewController.swift in Sources */,
+				C3BF5DC328D6C85A00FCA1B8 /* ModalViewController.swift in Sources */,
+				C3BF5DC928D6E1B100FCA1B8 /* UserViewModel.swift in Sources */,
+				C3BF5DBD28D6C5A100FCA1B8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
