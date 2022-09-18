@@ -1,7 +1,10 @@
-# MakingUITabBar
+## MakingUITabBar
+
+### 概要
+---
 UITabBarをコードで作る練習
 
-## 論点
+### 論点
 ---
 - UITabBarをコードだけで作る
 - コードでタブの変更をする
@@ -10,6 +13,6 @@ UITabBarをコードで作る練習
 - ViewModelを使ってライトモードとダークモードの切り替えを行う
 - ViewModelを使ってログイン中のユーザーの切り替えを行う
 
-## 参考
+### 参考
 ---
 https://dev.classmethod.jp/articles/uitabbar_and_uitabbarcontroller/
